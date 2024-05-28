@@ -2,7 +2,7 @@
 
 int main() {
     FILE *file;
-    char filename[] = "main.c";
+    char filename[] = "hello.c";
     int ch;
 
     file = fopen(filename, "r");
