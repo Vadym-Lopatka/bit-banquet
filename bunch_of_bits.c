@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main() {
+int main(int argc, char *argv[]) {
     FILE *file;
-    char filename[] = "hello.c";
+    char *filename = (argc != 2) ? "hello.c" : argv[1];
     int ch;
 
     file = fopen(filename, "r");
