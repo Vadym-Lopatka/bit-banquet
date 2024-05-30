@@ -7,8 +7,8 @@ The only thing that distinguishes different data objects is the context in which
 For example, in different contexts, the same sequence of bytes might represent an integer,
 floating-point number, character string, or machine instruction.
 
-### default command
-`cc -o bunch bunch_of_bits.c && ./bunch`
-
-### with passing the filename(readme.md, in this case)
-`cc -o bunch bunch_of_bits.c && ./bunch readme.md`
+## How to run:
+1. Go to src `cd bit-banquet/src`
+2. Run command `cc -o bunch bunch_of_bits.c && ./bunch`
+3. Or run the command with your filename(.gitignore file, in this example)
+`cc -o bunch bunch_of_bits.c && ./bunch ../.gitignore`
