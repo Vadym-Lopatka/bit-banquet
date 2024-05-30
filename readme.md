@@ -10,7 +10,9 @@ Any file is a sequence of bits, each with a value of 0 or 1, organized in 8-bit 
 Each byte represents some text character.
 Most computer systems represent text characters using the ASCII standard that defines each character with a unique byte-size integer value.
 
-For instance, the following is the char>>ascii_code>>bit_array representation of the [srs/hello.c](srs/hello.c) hello world program written in C.
+https://github.com/Vadym-Lopatka/bit-banquet/blob/main/srs/hello.c
+
+For instance, the following is the char>>ascii_code>>bit_array representation of the [srs/hello.c](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/src/hello.c) hello world program written in C.
 ```
 #  >> 35  >> 00100011
 i  >> 105 >> 01101001
