@@ -1,4 +1,5 @@
-The program illustrates a fundamental idea:
+This simple program was created while playing with old good C language.
+But it illustrates a fundamental idea:
 All information in a system — including disk files, programs stored in memory, user files, or data transferred across a network— is no more but simply a bunch of bits. 
 Zeros and ones.
 Only context makes them meaningful, as the same sequence of bits might represent different values depending on the context.
