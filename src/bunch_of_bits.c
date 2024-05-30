@@ -13,8 +13,7 @@ int main(int argc, char *argv[]) {
     }
 
     while ((ch = fgetc(file)) != EOF) {
-        //printf("%c >> %d >> ", ch, ch);
-        if (ch == '\n') { // to make \n visible in output
+        if (ch == '\n') { // make \n visible in output
             printf("\\n >> %d >> ", ch);
         } else {
             printf("%c  >> %d >> ", ch, ch);
