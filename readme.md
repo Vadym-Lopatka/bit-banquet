@@ -39,10 +39,18 @@ h  >> 104 >> 01101000
 ```
 
 ## Try on your files:
-1. Go to src `cd bit-banquet/src`
-2. Compile and run command `cc -o bunch bunch_of_bits.c && ./bunch`
-3. Or the same but with your filename at the end(.gitignore file, in this example)
-`cc -o bunch bunch_of_bits.c && ./bunch ../.gitignore`
+1. Go to src 
+```
+cd bit-banquet/src
+```
+2. Compile and run command with [srs/hello.c](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/src/hello.c) input as default
+```
+cc -o bunch bunch_of_bits.c && ./bunch
+```
+3. Or with your own file ([.gitignore](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/.gitignore) in this example)
+```
+cc -o bunch bunch_of_bits.c && ./bunch ../.gitignore
+```
 
 
 
