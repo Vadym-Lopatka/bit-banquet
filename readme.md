@@ -6,6 +6,7 @@ Zeros and ones.
 Only context makes them meaningful, as the same sequence of bits might represent different values depending on the context.
 It might be an integer, character string, or machine instruction.
 
+
 Most programs begin their life as a source program (or source file) 
 that the programmer creates with an editor and saves in a text file. 
 Any file is a sequence of bits, each with a value of 0 or 1, organized in 8-bit chunks called bytes. 
