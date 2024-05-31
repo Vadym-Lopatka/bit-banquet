@@ -12,9 +12,19 @@ Any file is a sequence of bits, each with a value of 0 or 1, organized in 8-bit 
 Each byte represents some text character.
 Most computer systems represent text characters using the ASCII(extended by UTF-8 now) standard that defines each character with a unique byte-size integer value.
 
-The following is the representation output of the [srs/hello.c](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/src/hello.c) hello world program.
+For demonstration, we put a hello.c file as input to our program.
+```
+#include <stdio.h>
 
-The result is a `char >> ascii_code >> bit_array` representation of every symbol in [srs/hello.c](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/src/hello.c).
+int main (void) {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
+
+The result would be formatted in the following way: 
+```char >> ascii_code >> bit_array``` 
+representing every symbol in [hello.c](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/src/hello.c).
 ```
 #  >> 35  >> 00100011
 i  >> 105 >> 01101001
@@ -43,7 +53,7 @@ h  >> 104 >> 01101000
 ```
 cd bit-banquet/src
 ```
-2. Compile and run command with [srs/hello.c](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/src/hello.c) input as default
+2. Compile and run command with [hello.c](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/src/hello.c) input as default
 ```
 cc -o bunch bunch_of_bits.c && ./bunch
 ```
