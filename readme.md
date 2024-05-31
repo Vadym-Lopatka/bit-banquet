@@ -10,7 +10,7 @@ Most programs begin their life as a source program (or source file)
 that the programmer creates with an editor and saves in a text file. 
 Any file is a sequence of bits, each with a value of 0 or 1, organized in 8-bit chunks called bytes. 
 Each byte represents some text character.
-Most computer systems represent text characters using the ASCII standard that defines each character with a unique byte-size integer value.
+Most computer systems represent text characters using the ASCII(extended by UTF-8 now) standard that defines each character with a unique byte-size integer value.
 
 The following is the representation output of the [srs/hello.c](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/src/hello.c) hello world program.
 
