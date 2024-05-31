@@ -50,15 +50,15 @@ h  >> 104 >> 01101000
 ```
 
 ## Try on your files:
-1. Go to src 
+1. Go to src folder
 ```
 cd bit-banquet/src
 ```
-2. Compile and run command with [hello.c](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/src/hello.c) input as default
+2. Run the command that consumes with [hello.c](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/src/hello.c) as the default input
 ```
 cc -o bunch bunch_of_bits.c && ./bunch
 ```
-3. Or with your own file ([.gitignore](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/.gitignore) in this example)
+3. Or pass your own file as an input ([.gitignore](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/.gitignore) in this example)
 ```
 cc -o bunch bunch_of_bits.c && ./bunch ../.gitignore
 ```
