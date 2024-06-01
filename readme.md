@@ -1,4 +1,4 @@
-[This simple program](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/src/bunch_of_bits.c) was created while playing with old good C language.
+[This simple program](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/src/main.c) was created while playing with old good C language.
 
 It illustrates a fundamental idea:
 All information in a system — including disk files, programs stored in memory, user files, or data transferred across a network— is no more but simply a bunch of bits.
