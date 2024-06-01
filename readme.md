@@ -1,15 +1,15 @@
 [This simple program](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/src/bunch_of_bits.c) was created while playing with old good C language.
 
 It illustrates a fundamental idea:
-All information in a system — including disk files, programs stored in memory, user files, or data transferred across a network— is no more but simply a bunch of bits. 
+All information in a system — including disk files, programs stored in memory, user files, or data transferred across a network— is no more but simply a bunch of bits.
 Zeros and ones.
 Only context makes them meaningful, as the same sequence of bits might represent different values depending on the context.
 It might be an integer, character string, or machine instruction.
 
 
-Most programs begin their life as a source program (or source file) 
-that the programmer creates with an editor and saves in a text file. 
-Any file is a sequence of bits, each with a value of 0 or 1, organized in 8-bit chunks called bytes. 
+Most programs begin their life as a source program (or source file)
+that the programmer creates with an editor and saves in a text file.
+Any file is a sequence of bits, each with a value of 0 or 1, organized in 8-bit chunks called bytes.
 Each byte represents some text character.
 Most computer systems represent text characters using the ASCII(extended by UTF-8 now) standard that defines each character with a unique byte-size integer value.
 
@@ -23,8 +23,8 @@ int main (void) {
 }
 ```
 
-The result would be formatted in the following way: 
-```char >> ascii_code >> bit_array``` 
+The result would be formatted in the following way:
+```char >> ascii_code >> bit_array```
 representing every symbol in [hello.c](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/src/hello.c).
 ```
 #  >> 35  >> 00100011
@@ -56,12 +56,9 @@ cd bit-banquet/src
 ```
 2. Run the command that consumes with [hello.c](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/src/hello.c) as the default input
 ```
-cc -o bunch bunch_of_bits.c && ./bunch
+cc -o bits main.c && ./bits
 ```
 3. Or pass your own file as an input ([.gitignore](https://github.com/Vadym-Lopatka/bit-banquet/blob/main/.gitignore) in this example)
 ```
-cc -o bunch bunch_of_bits.c && ./bunch ../.gitignore
+cc -o bits main.c && ./bits ../.gitignore
 ```
-
-
-
